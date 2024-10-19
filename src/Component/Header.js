@@ -68,7 +68,7 @@ const Header = () => {
               alt="Profile"
               className="w-10 h-10 rounded-full"
             />
-            <span className="font-medium hidden md:inline-block">Ramazi Cherif</span>
+            <span className="font-medium hidden md:inline-block">Guest</span>
           </div>
         </div>
       </div>

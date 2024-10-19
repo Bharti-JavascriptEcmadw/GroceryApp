@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'; // Importing arrow icons from React Icons
+import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'; 
 
 const DailyBestSells = () => {
   const products = [
@@ -54,20 +54,20 @@ const DailyBestSells = () => {
             </div>
           </div>
           <div className="flex items-center space-x-2">
-            {/* Left Arrow */}
+            
             <button className="p-2 bg-blue-900 rounded-full hover:bg-blue-700 transition flex items-center justify-center shadow-lg text-white">
               <FaChevronLeft className="text-xl" />
             </button>
-            {/* Right Arrow */}
+          
             <button className="p-2 bg-blue-900 rounded-full hover:bg-blue-700 transition flex items-center justify-center shadow-lg text-white">
               <FaChevronRight className="text-xl" />
             </button>
           </div>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 ">
           {products.map((product, index) => (
-            <div key={index} className="bg-white border-2 border-gray-100 p-4 flex flex-col rounded-md shadow-md">
+            <div key={index} className="bg-blue-100  opacity-100 border-2 border-gray-100 p-4 flex flex-col rounded-md shadow-md">
               <div className="flex items-center justify-center h-32 w-full mb-4">
                 <img
                   src={product.image}
