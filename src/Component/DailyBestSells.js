@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'; // Importing arrow icons from React Icons
 
 const DailyBestSells = () => {
   const products = [
@@ -53,18 +54,20 @@ const DailyBestSells = () => {
             </div>
           </div>
           <div className="flex items-center space-x-2">
-            <button className="p-2 bg-white rounded-full hover:bg-gray-300 transition flex items-center justify-center">
-              <span className="text-xl font-bold">&#8592;</span>
+            {/* Left Arrow */}
+            <button className="p-2 bg-blue-900 rounded-full hover:bg-blue-700 transition flex items-center justify-center shadow-lg text-white">
+              <FaChevronLeft className="text-xl" />
             </button>
-            <button className="p-2 bg-gray-200 rounded-full hover:bg-gray-300 transition flex items-center justify-center">
-              <span className="text-xl font-bold">&#8594;</span>
+            {/* Right Arrow */}
+            <button className="p-2 bg-blue-900 rounded-full hover:bg-blue-700 transition flex items-center justify-center shadow-lg text-white">
+              <FaChevronRight className="text-xl" />
             </button>
           </div>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {products.map((product, index) => (
-            <div key={index} className="bg-white border-2 border-gray-100 p-4 flex flex-col">
+            <div key={index} className="bg-white border-2 border-gray-100 p-4 flex flex-col rounded-md shadow-md">
               <div className="flex items-center justify-center h-32 w-full mb-4">
                 <img
                   src={product.image}
@@ -82,7 +85,6 @@ const DailyBestSells = () => {
               <div className="h-1 bg-blue-900 mb-2"></div>
               <p className="text-gray-500 text-sm text-left">Sold: {product.sold}/{product.total}</p>
               <button className="mt-4 w-full bg-blue-900 text-white py-2 rounded flex items-center justify-center">
-                
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-5 w-5 mr-2"
