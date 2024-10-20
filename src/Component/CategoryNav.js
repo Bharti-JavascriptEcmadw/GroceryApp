@@ -7,7 +7,7 @@ const CategoryNav = () => {
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-4">
         
         {/* Search Bar */}
-        <div className="flex items-center mb-4 md:mb-0 w-full md:w-auto">
+        <div className="flex items-center mb-4 md:mb-0 w-full ml-6 md:w-auto">
           <input
             type="text"
             placeholder="Browse all categories..."
