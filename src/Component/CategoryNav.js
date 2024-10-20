@@ -2,6 +2,7 @@ import React from 'react';
 import { FaHome, FaTags, FaInfoCircle, FaHeadset } from 'react-icons/fa';
 
 const CategoryNav = () => {
+        
   return (
     <nav className="bg-white py-4 shadow-sm">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-4">

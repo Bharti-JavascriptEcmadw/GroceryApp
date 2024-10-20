@@ -3,7 +3,7 @@ import { FaSearch, FaHeart, FaShoppingCart } from 'react-icons/fa';
 
 const Header = () => {
   return (
-    <header className="bg-blue-900 text-black p-4 shadow-md">
+    <header className="bg-red1 text-white p-4 shadow-md">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
         
         {/* Logo and Title */}
@@ -58,7 +58,7 @@ const Header = () => {
               1
             </span>
             <span className="ml-2 hidden md:inline-block">My Cart</span>
-            <span className="ml-2 text-xs text-gray-600 hidden md:inline-block">$1</span>
+            <span className="ml-2 text-xs text-white hidden md:inline-block">$1</span>
           </a>
 
           {/* Profile */}
