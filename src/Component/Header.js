@@ -20,7 +20,7 @@ const Header = () => {
         </div>
 
         {/* Search Bar */}
-        <div className="w-full md:w-auto flex justify-center md:flex-1">
+        <div className="w-full md:w-auto flex justify-center ml-6 md:flex-1">
           <div className="flex w-full max-w-md">
             <select className="p-2 bg-gray-200 text-gray-900 outline-none">
               <option value="all">All Categories</option>
