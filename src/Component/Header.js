@@ -5,13 +5,13 @@ const Header = () => {
   return (
     <header className="bg-blue-900 text-white p-4 shadow-md">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
-        
+
         {/* Logo and Title */}
-        <div className="flex items-center">
+        <div className="flex items-center space-x-2">
           <img
             src="/assets/logo.png"
             alt="Vegetable Logo"
-            className="w-10 h-10 mr-3"
+            className="w-10 h-10"
           />
           <div>
             <a href="/" className="text-2xl md:text-3xl font-bold">Marketplace</a>
@@ -20,9 +20,9 @@ const Header = () => {
         </div>
 
         {/* Search Bar */}
-        <div className="w-full md:w-auto flex justify-center md:flex-1">
+        <div className="w-full md:w-1/3 flex justify-center md:flex-1">
           <div className="flex w-full max-w-md">
-            <select className="p-2 bg-gray-200 text-gray-900 outline-none">
+            <select className="p-2 bg-gray-200 text-gray-900 outline-none rounded-l-md border border-gray-300">
               <option value="all">All Categories</option>
               <option value="potato">Potato</option>
               <option value="ladyfinger">Ladyfinger</option>
@@ -32,13 +32,14 @@ const Header = () => {
             <input
               type="text"
               placeholder="|  Search for items..."
-              className="p-2 flex-grow w-5 outline-none border-t border-b border-l bg-white"
+              className="p-2 flex-grow border border-gray-300 outline-none rounded-none"
             />
-            <button className="p-2 bg-yellow-800 text-white hover:bg-blue-500 mr-7">
+            <button className="p-2 bg-yellow-800 text-white hover:bg-blue-500 rounded-r-md">
               <FaSearch size={20} />
             </button>
           </div>
         </div>
+
         {/* Icons Section */}
         <div className="flex items-center space-x-4">
           {/* Wishlist */}
