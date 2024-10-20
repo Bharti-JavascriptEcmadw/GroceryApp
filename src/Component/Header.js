@@ -34,17 +34,16 @@ const Header = () => {
               placeholder="|  Search for items..."
               className="p-2 flex-grow w-5 outline-none border-t border-b border-l bg-white"
             />
-            <button className="p-2 bg-green-500 text-white hover:bg-blue-500 mr-7">
+            <button className="p-2 bg-yellow-800 text-white hover:bg-blue-500 mr-7">
               <FaSearch size={20} />
             </button>
           </div>
         </div>
-
         {/* Icons Section */}
         <div className="flex items-center space-x-4">
           {/* Wishlist */}
           <a href="/wishlist" className="relative flex items-center">
-            <FaHeart size={24} className="text-white" />
+            <FaHeart size={24} className="text-black" />
             <span className="absolute -top-2 left-4 bg-red-600 text-white rounded-full text-xs w-5 h-5 flex items-center justify-center">
               4
             </span>
@@ -53,7 +52,7 @@ const Header = () => {
 
           {/* Cart */}
           <a href="/cart" className="relative flex items-center">
-            <FaShoppingCart size={24} className="text-white" />
+            <FaShoppingCart size={24} className="text-black" />
             <span className="absolute -top-2 left-4 bg-red-600 text-white rounded-full text-xs w-5 h-5 flex items-center justify-center">
               1
             </span>

@@ -43,7 +43,7 @@ const CategoryNav = () => {
         </div>
 
         {/* Support Center */}
-        <div className="flex items-center justify-center md:justify-end text-black  bg-green-500 p-4 hover:bg-pink-400 mb-4 md:mb-0">
+        <div className="flex items-center justify-center md:justify-end text-gray-700 mb-4 md:mb-0">
           <span className="font-bold">1234-567-8910</span>
           <span className="font-semibold ml-1">Support Center:</span>
         </div>
