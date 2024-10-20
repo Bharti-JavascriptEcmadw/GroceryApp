@@ -21,19 +21,21 @@ const CategoryNav = () => {
     <nav className="bg-white py-4 shadow-sm">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-4">
 
-        {/* Search Bar */}
-        <input
-          type="text"
-          placeholder="Browse all categories..."
-          className="p-2 mr-8 border border-gray-300 bg-blue-900 text-white outline-none rounded-md w-full md:w-64 mb-4 md:mb-0"
-        />
+        {/* Search Bar Wrapper */}
+        <div className="flex items-center w-full md:w-auto mb-4 md:mb-0">
+          <input
+            type="text"
+            placeholder="Browse all categories..."
+            className="p-2 border border-gray-300 bg-blue-900 text-white outline-none rounded-md w-full"
+          />
+        </div>
 
         {/* Links Section */}
         <div className="flex flex-wrap justify-center md:justify-between items-center mb-4 md:mb-0">
           {links.map((link, index) => (
             <a 
               key={index} 
-              href={`/${link.name.toLowerCase}`} 
+              href={`/${link.name.toLowerCase().replace(/\s+/g, '-')}`} 
               className={`flex items-center space-x-2 mb-2 md:mb-0 mx-3 p-2 rounded-md transition duration-300 ${
                 activeLink === index ? 'bg-green-300' : 'hover:bg-green-200'
               }`}
