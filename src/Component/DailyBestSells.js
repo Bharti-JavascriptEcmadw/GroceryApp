@@ -84,7 +84,7 @@ const DailyBestSells = () => {
 
               <div className="h-1 bg-blue-900 mb-2"></div>
               <p className="text-gray-500 text-sm text-left">Sold: {product.sold}/{product.total}</p>
-              <button className="mt-4 w-full bg-blue-900 text-white py-2 rounded flex items-center justify-center">
+              <button className="mt-4 w-full bg-blue-900 text-white py-2 rounded hover:bg-pink-500 flex items-center justify-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-5 w-5 mr-2"

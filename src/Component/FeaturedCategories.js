@@ -59,10 +59,10 @@ const FeaturedProducts = () => {
       <div className="flex flex-col md:flex-row justify-between items-center mb-4">
         <h2 className="text-xl md:text-2xl font-bold mb-4 md:mb-0">Featured Products</h2>
         <div className="flex flex-wrap justify-center space-x-2 md:space-x-4">
-          <a href="#" className="text-black-600 hover:underline">All Vegetables</a>
-          <a href="#" className="text-black-600 hover:underline">Fruits</a>
-          <a href="#" className="text-black-600 hover:underline">Coffee & Tea</a>
-          <a href="#" className="text-black-600 hover:underline">Meat</a>
+          <a href="#" className="text-pink-600 hover:underline">All Vegetables</a>
+          <a href="#" className="text-pink-600 hover:underline">Fruits</a>
+          <a href="#" className="text-pink-600 hover:underline">Coffee & Tea</a>
+          <a href="#" className="text-pink-600 hover:underline">Meat</a>
         </div>
       </div>
 
@@ -90,7 +90,7 @@ const FeaturedProducts = () => {
               <p className="text-gray-500 text-sm">{product.description}</p>
               <div className="flex justify-between items-center mt-3">
                 <span className="text-lg font-bold">{product.price}</span>
-                <button className="bg-pink-100 text-black px-3 py-1 rounded-md hover:bg-blue-700 flex items-center">
+                <button className="bg-green-600 text-black px-3 py-1 rounded-md hover:bg-blue-700 flex items-center">
                   <FaShoppingCart className="mr-1" />
                   Add
                 </button>

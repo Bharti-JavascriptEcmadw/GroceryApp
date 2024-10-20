@@ -9,7 +9,7 @@ const ExploreCategory = () => {
     { name: 'Cold Drinks & Juices', image: '/assets/dairy.jpg' },
     { name: 'Tea, Coffee & More', image: '/assets/detol.jpg' },
     { name: 'Biscuits', image: '/assets/buis.jpg' },
-    { name: 'Health & Baby Care', image: '/assets/detol.jpg' },
+    { name: 'Vegetable', image: '/assets/1.jpg' },
     { name: 'Health & Baby Care', image: '/assets/detol.jpg' },
 
     { name: 'Health & Baby Care', image: '/assets/detol.jpg' },
