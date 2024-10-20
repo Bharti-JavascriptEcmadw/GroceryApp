@@ -3,12 +3,12 @@ import React from 'react';
 const Banner = () => {
   return (
     <div 
-      className="bg-blue-600 text-white py-10 px-4 bg-cover bg-center"
+      className="bg-blue-600 text-black py-10 px-4 bg-cover bg-center"
       style={{ 
         backgroundImage: 'url("/assets/banner22.jpg")' 
       }}
     >
-      <div className="bg-blue-600 bg-opacity-50 p-4  max-w-lg mx-auto text-center md:text-left">
+      <div className="bg-green-600 bg-opacity-50 p-4  max-w-lg mx-auto text-center md:text-left">
         <h2 className="text-2xl md:text-4xl font-bold mb-4">Don’t miss our daily amazing deals.</h2>
         <p className="text-md md:text-xl mb-6">Save up to 60% off on your first order</p>
         <div className="flex flex-col md:flex-row items-center md:items-start">
