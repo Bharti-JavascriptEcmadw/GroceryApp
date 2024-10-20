@@ -3,7 +3,7 @@ import { FaSearch, FaHeart, FaShoppingCart } from 'react-icons/fa';
 
 const Header = () => {
   return (
-    <header className="bg-white text-black p-4 shadow-md">
+    <header className="bg-blue-900 text-white p-4 shadow-md">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
         
         {/* Logo and Title */}
@@ -15,7 +15,7 @@ const Header = () => {
           />
           <div>
             <a href="/" className="text-2xl md:text-3xl font-bold">Marketplace</a>
-            <p className="text-sm font-light text-gray-600">Grocery</p>
+            <p className="text-sm font-bold text-center text-white">Grocery</p>
           </div>
         </div>
 
@@ -34,7 +34,7 @@ const Header = () => {
               placeholder="|  Search for items..."
               className="p-2 flex-grow w-5 outline-none border-t border-b border-l bg-white"
             />
-            <button className="p-2 bg-blue-900 text-white hover:bg-blue-500 mr-7">
+            <button className="p-2 bg-green-500 text-white hover:bg-blue-500 mr-7">
               <FaSearch size={20} />
             </button>
           </div>
@@ -44,7 +44,7 @@ const Header = () => {
         <div className="flex items-center space-x-4">
           {/* Wishlist */}
           <a href="/wishlist" className="relative flex items-center">
-            <FaHeart size={24} className="text-black" />
+            <FaHeart size={24} className="text-white" />
             <span className="absolute -top-2 left-4 bg-red-600 text-white rounded-full text-xs w-5 h-5 flex items-center justify-center">
               4
             </span>
@@ -53,7 +53,7 @@ const Header = () => {
 
           {/* Cart */}
           <a href="/cart" className="relative flex items-center">
-            <FaShoppingCart size={24} className="text-black" />
+            <FaShoppingCart size={24} className="text-white" />
             <span className="absolute -top-2 left-4 bg-red-600 text-white rounded-full text-xs w-5 h-5 flex items-center justify-center">
               1
             </span>

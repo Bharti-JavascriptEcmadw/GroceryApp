@@ -48,9 +48,9 @@ const DailyBestSells = () => {
           <div className="flex items-center space-x-2 mb-2 md:mb-0">
             <h2 className="text-2xl md:text-3xl font-bold text-gray-800">Daily Best Sells</h2>
             <div className="flex space-x-2">
-              <button className="text-gray-600 hover:text-gray-800">Featured</button>
-              <button className="text-gray-600 hover:text-gray-800">Popular</button>
-              <button className="text-gray-600 hover:text-gray-800">New</button>
+              <button className="text-pink-600 font-bold hover:text-gray-800">Featured</button>
+              <button className="text-pink-600 font-bold hover:text-gray-800">Popular</button>
+              <button className="text-pink-600 font-bold hover:text-gray-800">New</button>
             </div>
           </div>
           <div className="flex items-center space-x-2">
