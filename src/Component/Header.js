@@ -14,8 +14,8 @@ const Header = () => {
             className="w-10 h-10 mr-3"
           />
           <div>
-            <a href="/" className="text-2xl md:text-3xl font-bold">Grocery Market</a>
-            <p className="text-sm font-light text-white text-center">Grocery</p>
+            <a href="/" className="text-2xl md:text-3xl font-bold">Grocery</a>
+            <p className="text-sm font-light text-white text-center">Market</p>
           </div>
         </div>
 
